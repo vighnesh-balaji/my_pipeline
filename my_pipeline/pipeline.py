@@ -76,4 +76,3 @@ def count_spikes(trace, sample_rate=10000, threshold=10):
     
     return peaks
 
-    return ns_conditions

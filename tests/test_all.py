@@ -1,5 +1,8 @@
 import pytest
 from my_pipeline.pipeline import pipeline
+import json
+import numpy as np
+import pandas as pd
 
 def test_ill_conditioned_input():
     # Define a path to a non-existent file or a file with missing columns
